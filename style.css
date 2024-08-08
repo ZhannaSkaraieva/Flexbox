@@ -1,0 +1,144 @@
+/*Wrapper*/
+.Wrapper {
+  width: 1000px;
+  border: 2px solid;
+  margin: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+/*Blocks*/
+.block-one {
+  width: auto;
+  height: 100px;
+  border: 2px solid;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(243, 243, 239);
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-one_item {
+  width: 150px;
+  margin: 10px;
+  border: 2px solid;
+  background-color: gray;
+}
+
+.block-two {
+  width: auto;
+  height: 100px;
+  border: 2px solid;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(243, 243, 239);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.block-two_item {
+  width: 150px;
+  margin: 10px;
+  border: 2px solid;
+  background-color: grey;
+}
+
+.block-two_item-first {
+  width: 150px;
+  margin: 10px;
+  border: 2px solid;
+  background-color: grey;
+  margin-right: auto;
+}
+
+.block-three {
+  width: auto;
+  height: 100px;
+  border: 2px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(243, 243, 239);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.block-three_item {
+  width: 150px;
+  margin: 10px;
+  border: 2px solid;
+  background-color: gray;
+}
+
+.block-three_item-first {
+  background-color: gray;
+  width: 150px;
+  margin: 10px;
+  border: 2px solid;
+}
+
+.block-three_item-second {
+  background-color: gray;
+  width: 150px;
+  margin: 10px;
+  border: 2px solid;
+  margin-right: auto;
+}
+
+.block-four {
+  width: auto;
+  height: 200px;
+  border: 2px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(243, 243, 239);
+  display: flex;
+  align-content:flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.block-four_item-first {
+  width: 150px;
+  height: 170px;
+  margin: 10px;
+  border: 2px solid;
+  background-color: gray;
+}
+.block-four_item-second,
+.block-four_item-third {
+  width: 150px;
+  margin: 10px;
+  height: 70px;
+  border: 2px solid;
+  background-color: gray;
+}
+
+.block-five {
+  width: auto;
+  height: 200px;
+  border: 2px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(243, 243, 239);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.block-five_item-first {
+  width: 150px;
+  height: 170px;
+  margin-left: auto;
+  border: 2px solid;
+  background-color: gray;
+}
+
+.block-five_item-second,
+.block-five_item-third {
+  width: 150px;
+  height: 70px;
+  margin: 10px;
+  border: 2px solid;
+  background-color: gray;
+}
